@@ -19,7 +19,7 @@ install:
   - pip install pipenv
   - pipenv lock
   - pipenv sync -d
-  - cp contrib/env-sample .env
+  - cp contrib/.env-sample .env
 
 before_script:
 
