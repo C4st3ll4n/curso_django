@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn central_error.wsgi --max-requests 1200
+web: gunicorn curso_django.wsgi --max-requests 1200
