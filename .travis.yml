@@ -20,3 +20,5 @@ install:
   - pipenv lock
   - pipenv sync -d
   - cp contrib/.env-sample .env
+
+script: skip
